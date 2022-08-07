@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ArabicLingo</string>
+
+    <string name="Alpha">Alphabets</string>
+    <string name="Quiz">Quiz</string>
+    <string name="Repo">Repository</string>
+    <string name="RepoLink">https://github.com/BSEF19M530/M530_MobileComputing</string>
+
+    <string name="a1">ا</string>
+    <string name="a2">ب</string>
+    <string name="a3">ت</string>
+    <string name="a4">ث</string>
+    <string name="a5">ج</string>
+
+    <string name="a6">ح</string>
+    <string name="a7">خ</string>
+    <string name="a8">د</string>
+    <string name="a9">ذ</string>
+    <string name="a10">ر</string>
+
+    <string name="a11">ز</string>
+    <string name="a12">س</string>
+    <string name="a13">ش</string>
+    <string name="a14">ص</string>
+    <string name="a15">ض</string>
+
+    <string name="a16">ط</string>
+    <string name="a17">ظ</string>
+    <string name="a18">ع</string>
+    <string name="a19">غ</string>
+    <string name="a20">ف</string>
+
+    <string name="a21">ق</string>
+    <string name="a22">ك</string>
+    <string name="a23">ل</string>
+    <string name="a24">م</string>
+    <string name="a25">ن</string>
+
+    <string name="a26">و</string>
+    <string name="a27">ه</string>
+    <string name="a28">ء</string>
+    <string name="a29">ي</string>
+    <string name="a30">ے</string>
+
+    <string name="quest">Select the correct transliteration of the following: </string>
+    <string name="opta">A</string>
+    <string name="optb">B</string>
+    <string name="optc">C</string>
+    <string name="optd">D</string>
+
+    <string name="cntd">Continue</string>
+    <string name="check">Check</string>
+    <string name="finish">Finish</string>
+
+    <string name="list">List</string>
+
+    <string name="default_purple">\@color/purple_500</string>
+
+
+</resources>
