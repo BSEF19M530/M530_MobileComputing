@@ -7,11 +7,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -54,35 +53,39 @@ public class MainActivity extends AppCompatActivity {
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
+            @SuppressLint("NonConstantResourceId")
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem)
             {
                 switch (menuItem.getItemId())
                 {
-                    case R.id.nav_book :
-                        Toast.makeText(getApplicationContext(),"Retur is Clicked",Toast.LENGTH_LONG).show();
+                    case R.id.nav_search:
                         Intent intent = new Intent(MainActivity.this, BookActivity.class);
                         startActivity(intent);
-                        //drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
-                    case R.id.nav_return :
-                        Toast.makeText(getApplicationContext(),"Retur is Clicked",Toast.LENGTH_LONG).show();
-                        //drawerLayout.closeDrawer(GravityCompat.START);
+                    case R.id.nav_quran:
+                        Intent intent1 = new Intent(MainActivity.this, QuranActivity.class);
+                        startActivity(intent1);
                         break;
 
-                    case R.id.nav_laptop :
-                        Toast.makeText(getApplicationContext(),"Laptop is clicked",Toast.LENGTH_LONG).show();
+                    case R.id.nav_english:
+                        Intent intent2 = new Intent(MainActivity.this, EnglishActivity.class);
+                        startActivity(intent2);
+                        break;
+
+                    case R.id.nav_urdu:
+                        Intent intent3 = new Intent(MainActivity.this, UrduActivity.class);
+                        startActivity(intent3);
+                        break;
+
+                    case R.id.nav_good:
+                        Toast.makeText(getApplicationContext(),"Thanks for liking",Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
-                    case R.id.nav_voice :
-                        Toast.makeText(getApplicationContext(),"Voice is clicked",Toast.LENGTH_LONG).show();
-                        drawerLayout.closeDrawer(GravityCompat.START);
-                        break;
-
-                    case R.id.nav_chrome_reader :
-                        Toast.makeText(getApplicationContext(),"Chrome Reader is clicked",Toast.LENGTH_LONG).show();
+                    case R.id.nav_bad:
+                        Toast.makeText(getApplicationContext(),"Thanks for your feedback",Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }
