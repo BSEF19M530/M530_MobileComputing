@@ -26,12 +26,10 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed(){
         if(drawerLayout.isDrawerOpen(GravityCompat.START)){
             drawerLayout.closeDrawer(GravityCompat.START);
-            Toast.makeText(getApplicationContext(),"Start",Toast.LENGTH_LONG).show();
-
         }
         else
         {
-            Toast.makeText(getApplicationContext(),"End",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Exit",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -80,12 +78,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_good:
-                        Toast.makeText(getApplicationContext(),"Thanks for liking",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"Thanks for liking",Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.nav_bad:
-                        Toast.makeText(getApplicationContext(),"Thanks for your feedback",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"Thanks for your feedback",Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }

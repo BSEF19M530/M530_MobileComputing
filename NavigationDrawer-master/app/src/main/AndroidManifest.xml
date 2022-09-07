@@ -9,7 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDrawer">
-        <activity android:name=".BookActivity"></activity>
+        <activity
+            android:name=".EngChapList"
+            android:exported="false" />
+        <activity
+            android:name=".EngPartList"
+            android:exported="false" />
+        <activity
+            android:name=".Surah"
+            android:exported="false" />
+        <activity
+            android:name=".Para"
+            android:exported="false" />
+        <activity
+            android:name=".ArSurahList"
+            android:exported="false" />
+        <activity
+            android:name=".ArParaList"
+            android:exported="false" />
+        <activity
+            android:name=".UrduActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuranActivity"
+            android:exported="false" />
+        <activity android:name=".BookActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
