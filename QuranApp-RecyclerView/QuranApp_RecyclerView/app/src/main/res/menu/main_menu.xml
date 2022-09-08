@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Search" >
+        <menu >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/laptop"
+                    android:title="Search Ayah" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Read">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_quran"
+                    android:icon="@drawable/chrome_reader"
+                    android:title="Quran" />
+                <item
+                    android:id="@+id/nav_english"
+                    android:icon="@drawable/book"
+                    android:title="English Translation" />
+                <item
+                    android:id="@+id/nav_urdu"
+                    android:icon="@drawable/book"
+                    android:title="Urdu Translation" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Rate App">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_good"
+                    android:icon="@drawable/textsms"
+                    android:title="Good" />
+                <item
+                    android:id="@+id/nav_bad"
+                    android:icon="@drawable/textsms"
+                    android:title="Bad" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

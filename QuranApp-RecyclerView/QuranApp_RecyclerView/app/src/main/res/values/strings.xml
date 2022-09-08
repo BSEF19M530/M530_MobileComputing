@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="open">Openning</string>
+    <string name="close">Closing</string>
+
+    <string-array name="Arabic_Text">
+        <item></item>
+    </string-array>
+</resources>
