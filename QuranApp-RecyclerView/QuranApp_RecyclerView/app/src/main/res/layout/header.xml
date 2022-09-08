@@ -3,7 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_200">
-    M9,0L9,108
 
     <ImageView
         android:layout_width="178dp"
