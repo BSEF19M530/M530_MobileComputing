@@ -7,6 +7,8 @@ public class QDH {
     private List<String> list = new ArrayList<String>();
     private List<String> list1 = new ArrayList<String>();
     private List<String> list2 = new ArrayList<String>();
+    private List<String> list3 = new ArrayList<String>();
+
     public int [] PSP = {
             1,
             150,
@@ -585,6 +587,12 @@ public class QDH {
         for (int index = 0; index < urduSurahNames.length; ++index)
             list.add(urduSurahNames[index]);
         return list;
+    }
+
+    public List<String> GetChapterNames() {
+        for (int index = 0; index < englishSurahNames.length; ++index)
+            list3.add(englishSurahNames[index]);
+        return list3;
     }
 
     public int getSurahStart(int surahNumber) {

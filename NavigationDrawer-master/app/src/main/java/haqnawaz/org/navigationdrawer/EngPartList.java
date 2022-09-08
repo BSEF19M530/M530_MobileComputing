@@ -48,7 +48,7 @@ public class EngPartList extends AppCompatActivity {
     }
 
     public void launchPart(int s) {
-        Intent in = new Intent(this, Para.class);
+        Intent in = new Intent(this, Part.class);
         in.putExtra("PartId", s);
         startActivity(in);
     }

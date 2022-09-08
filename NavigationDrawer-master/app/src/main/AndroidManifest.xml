@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDrawer">
         <activity
+            android:name=".Surat"
+            android:exported="false" />
+        <activity
+            android:name=".Parah"
+            android:exported="false" />
+        <activity
+            android:name=".UrduSuratList"
+            android:exported="false" />
+        <activity
+            android:name=".UrduParahList"
+            android:exported="false" />
+        <activity
+            android:name=".Part"
+            android:exported="false" />
+        <activity
+            android:name=".Chapter"
+            android:exported="false" />
+        <activity
             android:name=".EngChapList"
             android:exported="false" />
         <activity
